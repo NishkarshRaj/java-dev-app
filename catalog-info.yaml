@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testrepo"
+  description: "test java repo"
+  annotations:
+    github.com/project-slug: java-dev-team/java-dev-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/java-team"
